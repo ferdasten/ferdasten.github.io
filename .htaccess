@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule   ^$ desktop.bundles/index/    [L]
+    RewriteRule   ((?s).*) desktop.bundles/index/$1 [L]
+</IfModule>
