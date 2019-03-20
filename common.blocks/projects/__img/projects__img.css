@@ -1,0 +1,17 @@
+.projects__img{
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+.projects__img:hover{
+    box-shadow: 0px 12px 10px 0px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 800px) {
+	.projects__img{
+		justify-self: center;
+    }
+}
+@media screen and (max-width: 420px) {
+	.projects__img{
+		width: 90%;
+    }
+}

@@ -1,0 +1,16 @@
+.header__menu-burger{
+	justify-self: end;
+	width: 45px;
+  height: 35px;
+  position: absolute;
+  cursor: pointer;
+  top: 40px;
+  right: 56px;
+  z-index: 4000;
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+	.header__menu-burger{
+		display: block;
+    } 
+}

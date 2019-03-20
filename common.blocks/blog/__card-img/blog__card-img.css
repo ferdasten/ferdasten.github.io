@@ -1,0 +1,8 @@
+.blog__card>.blog__card-img{
+	grid-area: img;
+}
+@media screen and (max-width: 420px) {
+	.blog__card-img{
+		width: 100%;
+	}
+}

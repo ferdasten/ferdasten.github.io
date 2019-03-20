@@ -1,0 +1,8 @@
+.projects__title{
+	grid-area: title;
+	font-size: 1.75rem;
+	font-family: 'Montserrat-SemiBold';
+	color: #4a4747;
+	text-transform: uppercase;
+	margin: 0;
+}

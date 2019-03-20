@@ -1,0 +1,36 @@
+.business{
+	background-color: #fff;
+	padding: 120px 0;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 100px 15px 15px 15px 15px 100px;
+	grid-template-areas:
+	"title title title title title title"
+	"facebook rss twitter pinterest dribbble vimeo";
+	grid-column-gap: 23px;
+	grid-row-gap: 40px;
+}
+.business>.icon-facebook{
+	justify-self: end;
+	grid-area: facebook;
+}
+.business>.icon-rss{
+	grid-area: rss;
+}
+.business>.icon-twitter{
+	grid-area: twitter;
+}
+.business>.icon-pinterest{
+	grid-area: pinterest;
+}
+.business>.icon-dribbble{
+	grid-area: dribbble;
+}
+.business>.icon-vimeo{
+	grid-area: vimeo;
+}
+@media screen and (max-width: 420px) {
+	.business{
+        	grid-template-columns: 50px 15px 15px 15px 15px 50px;
+	}
+}

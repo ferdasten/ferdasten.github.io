@@ -1,0 +1,8 @@
+.js-viewport__text{
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	position: absolute;
+	z-index: 4;
+}

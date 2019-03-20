@@ -1,0 +1,9 @@
+.brand__logo_google{
+	cursor: pointer;
+	width: 100px;
+	height: 33px;
+	background: url("../../img/brand-logo/google.png");
+}
+.brand__logo_google:hover{
+	background: url("../../img/brand-logo/google_hover.png") center center no-repeat;
+}

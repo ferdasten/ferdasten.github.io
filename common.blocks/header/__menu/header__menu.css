@@ -1,0 +1,24 @@
+.header__menu{
+	justify-self: end;
+	margin: 75px 176px 0 0;
+}
+@media screen and (max-width: 1500px) {
+	.header__menu{
+        margin: 75px 0 0 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.header__menu{
+		display: none;
+		margin: 0;
+    }
+	.header_open_active>.header__menu{
+		display: block;
+		z-index: 1001;
+		display: block;
+		justify-self: center;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+}

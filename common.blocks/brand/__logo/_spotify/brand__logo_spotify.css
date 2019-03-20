@@ -1,0 +1,9 @@
+.brand__logo_spotify{
+	cursor: pointer;
+	width: 118px;
+	height: 36px;
+	background: url("../../img/brand-logo/spotify.png");
+}
+.brand__logo_spotify:hover{
+	background: url("../../img/brand-logo/spotify_hover.png") center center no-repeat;
+}

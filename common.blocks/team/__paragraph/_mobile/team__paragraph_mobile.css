@@ -1,0 +1,13 @@
+.team__paragraph_mobile{
+	display: none;
+}
+@media screen and (max-width: 480px) {
+	.service__card{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.team__paragraph_mobile{
+		display: block;
+    }
+}

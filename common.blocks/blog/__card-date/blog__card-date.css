@@ -1,0 +1,11 @@
+.blog__card-date{
+	grid-area: date;
+	font-size: 0.875rem;
+	margin: 0 0 0 2.29em;
+	color: #a1a1a1;
+}
+@media screen and (max-width: 320px) {
+	.blog__card-date{
+    margin: 0 0 0 1.7em;
+    }
+}

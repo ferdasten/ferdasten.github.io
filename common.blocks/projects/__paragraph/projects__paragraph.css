@@ -1,0 +1,14 @@
+.projects__paragraph{
+	grid-area: paragraph;
+	font-size: 1.125rem;
+	font-family: 'Montserrat-Regular';
+	color: #434343;
+	margin: 0;
+	padding: 0 0 .5em 0;
+	line-height: 2;
+}
+@media screen and (max-width: 420px) {
+	.projects__paragraph{
+		display: none;
+    }
+}

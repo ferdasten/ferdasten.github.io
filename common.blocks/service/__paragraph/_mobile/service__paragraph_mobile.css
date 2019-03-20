@@ -1,0 +1,8 @@
+.service__paragraph_mobile{
+	display: none;
+}
+@media screen and (max-width: 420px) {
+	.service__paragraph_mobile{
+		display: block;
+    }
+}

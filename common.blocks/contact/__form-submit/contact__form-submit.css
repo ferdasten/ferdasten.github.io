@@ -1,0 +1,19 @@
+.contact__form-submit{
+	align-self: end;
+	grid-area: submit;
+	width: 175px;
+	height: 52px;
+	background-color: #fff;
+	font-family: 'Montserrat-Bold';
+	color: #26af5f;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+@media screen and (max-width: 1210px) {
+	.contact__form-submit{
+		margin: 10px 0 0 0;
+		width: 100%;
+    }
+}

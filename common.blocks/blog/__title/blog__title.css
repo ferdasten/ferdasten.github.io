@@ -1,0 +1,9 @@
+.blog__title{
+	justify-self: center;
+	grid-area: title;
+	font-size: 1.75rem;
+	font-family: 'Montserrat-SemiBold';
+	color: #363636;
+	margin: 0;
+	padding: 0 0 2.5em 0;
+}

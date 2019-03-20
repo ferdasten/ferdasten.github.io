@@ -1,0 +1,35 @@
+.blog>.blog__card:nth-child(1){
+	grid-area: card-one;
+}
+.blog>.blog__card:nth-child(2){
+	grid-area: card-two;
+}
+.blog>.blog__card:nth-child(3){
+	grid-area: card-three;
+}
+.blog__card{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 370px;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: auto auto;
+	grid-template-areas:
+	"img img"
+	"title title"
+	"paragraph paragraph"
+	"date number";
+	grid-gap: 30px;
+	padding: 0 0 22px 0;
+	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+.blog__card:hover{
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.28);
+}
+@media screen and (max-width: 420px) {
+	.blog__card{
+        width: 90%;
+        justify-self: center;
+	}
+}

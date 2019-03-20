@@ -1,0 +1,13 @@
+.business__title{
+	grid-area: title;
+	justify-self: center;
+	margin: 0;
+	font-size: 3.125rem;
+	font-family: 'Montserrat-Black';
+	color: #585858;
+}
+@media screen and (max-width: 420px) {
+	.business__title{
+		font-size: 2rem;
+    }
+}

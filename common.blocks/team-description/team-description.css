@@ -1,0 +1,22 @@
+.team-description{
+	padding: 120px 0;
+	background: url(../../img/bg_description.png) center center no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.team-description:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: .5;
+	z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+	.team-description{
+		display: none;
+	}
+}

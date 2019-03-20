@@ -1,0 +1,7 @@
+.business__icon{
+	color: #c0c0c0;
+	cursor: pointer;
+}
+.business__icon:hover{
+	color: #c32361;
+}

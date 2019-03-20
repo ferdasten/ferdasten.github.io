@@ -1,0 +1,11 @@
+.header__logo-paragraph{
+	font-size: 1.2675rem;
+	margin: 0;
+	padding: 0;
+}
+.header__logo>.header__logo-paragraph:nth-child(1){
+	align-self: end;
+}
+.header__logo>.header__logo-paragraph:nth-child(2){
+	align-self: start;
+}

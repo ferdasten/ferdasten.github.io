@@ -1,0 +1,13 @@
+.team-description__slideBtn{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 23.5px;
+    height: 23.5px;
+    margin: 3px;
+    color: #26af5f;
+    opacity: .5;
+}
+.team-description__slideBtn:hover{
+  cursor: pointer;
+}

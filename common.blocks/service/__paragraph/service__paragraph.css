@@ -1,0 +1,14 @@
+.service__paragraph{
+	grid-area: paragraph;
+	margin: 0;
+	padding: 13px 0 96px 0;
+	line-height: 2;
+	font-size: 1.125rem;
+	font-family: 'Montserrat-Regular';
+	color: #535353;
+}
+@media screen and (max-width: 420px) {
+	.service__paragraph{
+		display: none;
+    }
+}

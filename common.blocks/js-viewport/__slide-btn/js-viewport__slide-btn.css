@@ -1,0 +1,11 @@
+.js-viewport__slide-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 23.5px;
+    height: 23.5px;
+    background-image: url('../../img/icon_slide.svg');
+    margin: 3px;
+    opacity: .5;
+    cursor: pointer;
+}

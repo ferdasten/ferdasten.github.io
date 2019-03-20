@@ -1,0 +1,13 @@
+.blog__card-title{
+	grid-area: title;
+	font-size: 1.5rem;
+	font-family: 'Montserrat-Medium';
+	color: #4a4747;
+	margin: 0 0 0 1.3em;
+}
+@media screen and (max-width: 320px) {
+	.blog__card-title{
+		font-size: 1.2rem;
+		margin: 0 0 0 1.2em;
+	}
+}

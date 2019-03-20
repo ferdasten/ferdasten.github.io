@@ -1,0 +1,42 @@
+.projects{
+	background-color: #f8f8f8;
+	padding: 120px 0 0 0;
+	text-align: center;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: 
+	"title title title"
+	"paragraph paragraph paragraph"
+	"headphones book jar"
+	"album bag booklet"
+	"button button button";
+	grid-gap: 30px;
+}
+@media screen and (max-width: 1210px) {
+	.projects{
+		grid-template-columns: auto auto;
+		grid-template-areas:
+		"title title"
+		"paragraph paragraph"
+		"headphones book"
+		"jar album"
+		"bag booklet"
+		"button button";
+    } 
+}
+@media screen and (max-width: 800px) {
+	.projects{
+		grid-template-columns: auto;
+    grid-template-areas:
+    "title"
+		"paragraph"
+		"headphones"
+		"book"
+		"jar"
+		"album"
+		"bag"
+		"booklet"
+		"button";
+    } 
+}

@@ -1,0 +1,9 @@
+.contact__office-paragraph_first{
+	display: grid;
+	grid-template-columns: 58px auto;
+}
+@media screen and (max-width: 320px) {
+	.contact__office-paragraph_first{
+        grid-template-columns: 42px auto;
+	}
+}

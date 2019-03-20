@@ -1,0 +1,14 @@
+.team__paragraph{
+	grid-area: paragraph;
+	font-size: 1.125rem;
+	color: #434343;
+	font-family: 'Montserrat-Regular';
+	margin: 0;
+	padding: 1.2em 0 5.6em 0;
+	line-height: 2;
+}
+@media screen and (max-width: 420px) {
+	.team__paragraph{
+		display: none;
+    }
+}

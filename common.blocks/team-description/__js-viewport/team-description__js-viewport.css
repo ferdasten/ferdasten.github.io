@@ -1,0 +1,17 @@
+.team-description__js-viewport{
+	padding: 50px 0;
+	position: relative;
+	width: 970px;
+	height: 340px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: auto;
+	z-index: 3;
+	text-align: center;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

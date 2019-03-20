@@ -1,0 +1,8 @@
+.service__title{
+	grid-area: title;
+	font-family: 'Montserrat-SemiBold';
+	color: #4a4747;
+	margin: 0;
+	padding: 0 0 13px 0;
+	font-size: 1.75rem;
+}

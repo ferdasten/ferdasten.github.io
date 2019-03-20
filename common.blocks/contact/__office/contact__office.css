@@ -1,0 +1,23 @@
+.contact__office{
+	grid-area: office;
+	z-index: 3;
+	background-color: #fff;
+	width: 470px;
+	border-radius: 5px;
+	padding: 53px 0 124px 0;
+	display: grid;
+	grid-template-columns: 296px;
+	justify-content: center;
+	grid-row-gap: 45px;
+}
+@media screen and (max-width: 1210px) {
+	.contact__office{
+		justify-self: center;
+	}
+}
+@media screen and (max-width: 530px) {
+	.contact__office{
+		width: 100%;
+		grid-template-columns: 90%;
+	}
+}

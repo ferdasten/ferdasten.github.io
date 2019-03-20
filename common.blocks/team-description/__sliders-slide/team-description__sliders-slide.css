@@ -1,0 +1,19 @@
+.team-description__sliders .team-description__sliders-slide{
+	width: calc(100%/3);
+  display: grid;
+  float: left;
+}
+.team-description__sliders-slide
+{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    filter: brightness(50%);
+    display: grid;
+	justify-content: center;
+	grid-template-columns: auto;
+	filter: none;
+}
+.team-description__sliders-slide:after{
+	background-color: transparent;
+}

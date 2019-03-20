@@ -1,0 +1,19 @@
+.brand__logo_dribble{
+	cursor: pointer;
+	width: 122px;
+	height: 30px;
+	background: url("../../img/brand-logo/dribble.png");
+}
+.brand__logo_dribble:hover{
+	background: url("../../img/brand-logo/dribble_hover.png") center center no-repeat;
+}
+@media screen and (max-width: 1210px) {
+	.brand__logo_dribble{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px) {
+	.brand__logo_dribble {
+    display: block;
+	}
+}

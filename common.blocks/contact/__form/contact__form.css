@@ -1,0 +1,22 @@
+.contact__form{
+	grid-area: form;
+	z-index: 3;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-areas:
+	"name email"
+	"textarea textarea"
+	"submit submit"
+	;
+	grid-column-gap: 30px;
+}
+@media screen and (max-width: 600px) {
+	.contact__form{
+        grid-template-columns: auto;
+        grid-template-areas:
+        "name"
+        "email"
+        "textarea"
+        "submit";
+    }
+}

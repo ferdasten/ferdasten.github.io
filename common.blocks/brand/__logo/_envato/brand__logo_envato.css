@@ -1,0 +1,9 @@
+.brand__logo_envato{
+	cursor: pointer;
+	width: 153px;
+	height: 27px;
+	background: url("../../img/brand-logo/envato.png");
+}
+.brand__logo_envato:hover{
+	background: url("../../img/brand-logo/envato_hover.png") center center no-repeat;
+}

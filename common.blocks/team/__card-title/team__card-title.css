@@ -1,0 +1,9 @@
+.team__card-title{
+	margin: 0;
+	font-size: 1.25rem;
+	color: #4a4747;
+	font-family: 'Montserrat-Medium';
+	position: relative;
+	z-index: 3;
+	padding: 0 0 7px 0;
+}

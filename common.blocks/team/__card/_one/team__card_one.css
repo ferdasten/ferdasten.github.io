@@ -1,0 +1,4 @@
+.team__card_one{
+	background: url('../../img/team/team_one.png') center center no-repeat;
+	grid-area: team-one;
+}

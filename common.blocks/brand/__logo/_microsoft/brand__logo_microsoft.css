@@ -1,0 +1,9 @@
+.brand__logo_microsoft{
+	cursor: pointer;
+	height: 36px;
+	width: 167px;
+	background: url("../../img/brand-logo/microsoft.png") center center no-repeat;
+}
+.brand__logo_microsoft:hover{
+	background: url("../../img/brand-logo/microsoft_hover.png") center center no-repeat;
+}

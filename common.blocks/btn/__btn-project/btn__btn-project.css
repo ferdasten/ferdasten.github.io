@@ -1,0 +1,12 @@
+.btn__btn-project{
+	width: 190px;
+	padding: 0.875em 2em;
+	margin: 3.5em 0 6em 0;
+	font-size: 1.25rem;
+	background-color: #26af5f;
+	color: #fff;
+	font-family: 'Montserrat-Light';
+	border-radius: 5px;
+	border-color: transparent;
+	cursor: pointer;
+}

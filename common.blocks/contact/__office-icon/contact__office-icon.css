@@ -1,0 +1,9 @@
+.contact__office-icon{
+    margin-right: 30px;
+    color: #26af5f;
+}
+@media screen and (max-width: 320px) {
+	.contact__office-icon{
+        margin-right: 15px;
+	}
+}

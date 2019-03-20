@@ -1,0 +1,9 @@
+.team__title{
+	grid-area: title;
+	font-size: 1.75rem;
+	color: #4a4747;
+	font-family: 'Montserrat-SemiBold';
+	padding: 0 0 1.87em 0;
+	margin: 0;
+	text-transform: uppercase;
+}

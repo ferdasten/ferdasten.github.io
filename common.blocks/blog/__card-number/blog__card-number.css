@@ -1,0 +1,7 @@
+.blog__card-number{
+	justify-self: end;
+	grid-area: number;
+	font-size: 0.875rem;
+	margin: 0 2.29em 0 0;
+	color: #a1a1a1;
+}

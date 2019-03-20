@@ -1,0 +1,23 @@
+.brand{
+	padding: 120px 0;
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	justify-content: center;
+	grid-gap: 114px;
+}
+@media screen and (max-width: 1210px) {
+	.brand{
+		grid-template-columns: auto auto;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.brand{
+		border-top: 1px solid #f8f8f8;
+    }
+}
+@media screen and (max-width: 800px) {
+	.brand{
+        grid-template-columns: auto;
+    }
+}

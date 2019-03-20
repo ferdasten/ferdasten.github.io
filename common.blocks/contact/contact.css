@@ -1,0 +1,44 @@
+.contact{
+    padding: 120px 0;
+    background: url('../../img/bg_contact.png') center center no-repeat;
+    height: 462px;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px auto;
+    grid-template-areas:
+    "title office"
+    "form office"
+    ;
+    grid-column-gap: 130px;
+    justify-content: center;
+}
+.contact:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+    z-index: 2;
+}
+@media screen and (max-width: 1210px) {
+	.contact{
+		height: auto;
+		background: none;
+		grid-template-columns: auto;
+        grid-template-areas:
+        "title"
+        "form"
+        "office";
+        grid-gap: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+	.contact{
+		grid-template-columns: 90%;
+    }
+}

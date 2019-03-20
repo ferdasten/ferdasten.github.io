@@ -1,0 +1,20 @@
+.js-viewport__sliders-slide{
+    width: calc(100%/3);
+    display: inline;
+    float: left;
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    filter: brightness(50%);
+}
+.js-viewport__sliders .js-viewport__sliders-slide{
+    width: calc(100%/3);
+    display: inline;
+    float: left;
+}
+@media screen and (max-height: 950px) {
+	.js-viewport__sliders-slide{
+		height: 100vh;
+	}
+}

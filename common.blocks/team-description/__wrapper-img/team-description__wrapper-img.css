@@ -1,0 +1,10 @@
+.team-description__wrapper-img{
+	display: block;
+	position: relative;
+	justify-self: center;
+	align-self: center;
+	border: 3px solid #26af5f;
+	width: 116px;
+	height: 116px;
+	transform: rotate(45deg);
+}

@@ -1,0 +1,13 @@
+.header__menu-link{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Roboto-Regular';
+	text-decoration: none;
+	margin: 0 14.5px;
+}
+.header__menu>.header__menu-link:first-child{
+	margin-left: 0;
+}
+.header__menu>.header__menu-link:last-child{
+	margin-right: 0;
+}
